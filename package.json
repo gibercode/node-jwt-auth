@@ -1,0 +1,22 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "node api implemented jwt auth",
+  "main": "index.js",
+  "repository": "https://github.com/gibercode/jwt-auth-api.git",
+  "author": "Giber Lara",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2"
+  }
+}
